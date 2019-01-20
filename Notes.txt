@@ -1,0 +1,20 @@
+Usage:
+
+Open PowerShell
+
+	cd 'C:\[path]\Youtube-DL'
+
+	Name file based on video title:
+
+	Powershell:
+	.\youtube-dl.exe -o '%(title)s.%(ext)s' https://youtu.b.....etc.
+
+	Command Prompt only?
+	.\youtube-dl.exe -o %(title)s.%(ext)s https://youtu.b.....etc.
+
+Windows 8.1 - right click to paste link
+
+
+To convert to .mp3:
+
+	.\ffmpeg.exe -i 'filename.mp4' 'filename.mp3'
