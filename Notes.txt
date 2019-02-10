@@ -10,7 +10,10 @@ Open PowerShell
 	.\youtube-dl.exe -o '%(title)s.%(ext)s' https://youtu.b.....etc.
 
 	Command Prompt only?
-	.\youtube-dl.exe -o %(title)s.%(ext)s https://youtu.b.....etc.
+		.\youtube-dl.exe -o %(title)s.%(ext)s https://youtu.b.....etc.
+		
+		Playlists:
+		.\youtube-dl.exe -o %(title)s.%(ext)s --playlist-start 9 --playlist-end 12 https://www.youtube.com/playlist?list=...etc.
 
 Windows 8.1 - right click to paste link
 
