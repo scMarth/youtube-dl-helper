@@ -23,4 +23,4 @@ call "%batchpath%ffmpeg" -i "%folder%%filename%" "%folder%%filenameWoExt%.mp3"
 shift
 if not "%~1"=="" goto loop
 
-pause
+REM pause
