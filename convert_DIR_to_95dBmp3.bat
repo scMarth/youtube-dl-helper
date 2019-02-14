@@ -43,4 +43,4 @@ goto end
 
 echo "%count% files processed."
 
-pause
+REM pause

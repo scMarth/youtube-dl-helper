@@ -33,4 +33,4 @@ rename "%folder%temporary_filename_500.mp3" "%filenameWoExt%.mp3"
 shift
 if not "%~1"=="" goto loop
 
-pause
+REM pause
