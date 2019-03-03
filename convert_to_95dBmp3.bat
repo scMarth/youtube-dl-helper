@@ -19,8 +19,9 @@ echo batchpath = "%batchpath%"
 echo fileExtension = "%fileExtension%"
 echo filenameWoExt = "%filenameWoExt%"
 
-call "%batchpath%ffmpeg" -i "%folder%%filename%" "%folder%%filenameWoExt%.mp3"
-rename "%filenameWoExt%.mp3" "temporary_filename_500.mp3"
+rename "%folder%%filename%" "temporary_filename_500%fileExtension%"
+call "%batchpath%ffmpeg" -i "%folder%temporary_filename_500%fileExtension%" "temporary_filename_500.mp3"
+rename "%folder%temporary_filename_500%fileExtension%" "%filename%"
 
 REM -c : ignore clipping
 REM -r : apply track gain

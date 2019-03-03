@@ -1,0 +1,5 @@
+convert_to_95dBmp3.bat was changed because of a bug discovered with certain filenames, now, before ANY processing is done, the file is renamed to a temporary filename to mitigate calls with certain filenames.
+
+This needs to be applied to convert_to_mp3.bat, convert_DIR_to_mp3.bat, and convert_DIR_to_95dBmp3.bat
+
+convert_to_mp3_fail shows the file that originally caused convert_to_95dBmp3.bat before it was patched.
