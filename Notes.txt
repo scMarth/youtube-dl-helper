@@ -15,6 +15,10 @@ Open PowerShell
 		Playlists:
 		.\youtube-dl.exe -o %(title)s.%(ext)s --playlist-start 9 --playlist-end 12 https://www.youtube.com/playlist?list=...etc.
 
+	Update
+
+		.\youtube-dl.exe -U
+
 Windows 8.1 - right click to paste link
 
 
