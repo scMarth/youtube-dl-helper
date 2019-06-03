@@ -1,5 +1,5 @@
 # Youtube-DL
-A copy of youtube-dl.exe, ffmpeg.exe, and some useful batch scripts
+A copy of youtube-dl.exe, ffmpeg.exe, and some useful batch scripts for Windows
 
 ffmpeg repository: https://github.com/FFmpeg/FFmpeg
 
