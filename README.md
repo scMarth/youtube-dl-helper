@@ -5,6 +5,11 @@ ffmpeg repository: https://github.com/FFmpeg/FFmpeg
 
 youtube-dl repository: https://github.com/rg3/youtube-dl
 
+### Prerequisites
+
+- **Microsoft Visual C++ 2010 Redistributable Package (x86).**
+  - Download from: https://www.microsoft.com/en-US/download/details.aspx?id=5555
+
 ### List of scripts
 
 - **convert_DIR_to_mp3.bat and convert_to_mp3.bat** https://github.com/scMarth/batch_convert_to_mp3
