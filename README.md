@@ -8,7 +8,7 @@ youtube-dl repository: https://github.com/rg3/youtube-dl
 ### Prerequisites
 
 - **Microsoft Visual C++ 2010 Redistributable Package (x86).**
-  - Download from: https://www.microsoft.com/en-US/download/details.aspx?id=5555
+  - Download from: https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe
 
 ### List of scripts
 
